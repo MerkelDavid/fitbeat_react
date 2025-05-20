@@ -1,5 +1,5 @@
-import React from 'react'
 import { Button, CardActions, CardContent, Card } from '@mui/material';
+
 const Home = () => {
 
   return (

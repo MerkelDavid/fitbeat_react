@@ -13,7 +13,7 @@ export const routes =
         {index: true, Component: Home},
         {path: "routine", Component: Routine},
         {path: "music", Component: Music},
-        {path: "profile", Component: Profile}
+        {path: "profile", Component: Profile},
       ]
     },
   ]
