@@ -15,6 +15,7 @@ const BottomNav = () => {
             <BottomNavigation showLabels value={useLocation().pathname}>
               <BottomNavigationAction component={Link} to="/" value="/" label="Home" icon={<HomeIcon />} />
               <BottomNavigationAction component={Link} to="/routine" value="/routine" label="Routine" icon={<FitnessCenterIcon />} />
+              <BottomNavigationAction component={Link} to="/exercises" value="/exercises" label="Exercises" icon={<FitnessCenterIcon />} />
               <BottomNavigationAction component={Link} to="/music" value="/music" label="Music" icon={<MusicNoteIcon />} /> 
               <BottomNavigationAction component={Link} to="/profile" value="/profile" label="Profile" icon={<AccountBoxIcon />} />
             </BottomNavigation>

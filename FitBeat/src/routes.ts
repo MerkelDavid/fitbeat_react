@@ -1,8 +1,9 @@
 import Home from './components/home';
-import Routine from './components/routine';
+import Routines from './components/routines';
 import Music from './components/music';
 import Profile from './components/profile';
 import App from './App';
+import Exercises from './components/exercises';
 
 export const routes = 
   [
@@ -11,9 +12,10 @@ export const routes =
       Component: App,
       children:[
         {index: true, Component: Home},
-        {path: "routine", Component: Routine},
+        {path: "routine", Component: Routines},
         {path: "music", Component: Music},
         {path: "profile", Component: Profile},
+        {path: "exercises", Component: Exercises},
       ]
     },
   ]
