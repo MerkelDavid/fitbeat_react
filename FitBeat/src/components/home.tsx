@@ -1,4 +1,5 @@
 import { Button, CardActions, CardContent, Card } from '@mui/material';
+import { NavLink } from 'react-router-dom';
 
 const Home = () => {
 
@@ -6,9 +7,9 @@ const Home = () => {
         <section className="App-content">
             <Card className="mb-4">
               <CardContent>
-                <h2>Track Your Workouts</h2>
-                <p>Log your workouts and monitor your progress.</p>
-                <CardActions> <Button variant="contained">Get Started</Button></CardActions>
+                <h2>Welcome to FitBeat!</h2>
+                <p>Create an account to track your workouts and create playlists</p>
+                <CardActions> <NavLink to="/createAccount"><Button variant="contained">Get Started</Button></NavLink></CardActions>
               </CardContent>
             </Card>
             <Card className="mb-4">

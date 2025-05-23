@@ -31,7 +31,7 @@ const Routines = () => {
             <>
 
                 <LocalizationProvider dateAdapter={AdapterDayjs}>
-                    <DatePicker value = {selectedDate} onChange= {(value) => setSelectedDate(value)}/>
+                    <DatePicker format= 'DD/MM/YYYY' value={selectedDate} onChange= {(value) => setSelectedDate(value)}/>
                 </LocalizationProvider>
                 <Card className="mt-4 mb-4">    
                     <CardContent>
