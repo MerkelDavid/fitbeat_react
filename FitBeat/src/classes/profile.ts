@@ -6,7 +6,9 @@ export class Profile {
   email: string;
   password: string;
   age: number;
-  height: string;
+  heightFt: number;
+  heightIn: number;
+  gender: string;
   // in lbs
   weight: number;
   Routines: Routine[];
@@ -18,8 +20,10 @@ export class Profile {
         email: string,
         password: string,
         age: number,
-        height: string,
+        heightFt: number,
+        heightIn: number,
         weight: number,
+        gender: string,
         routines: Routine[]
     ) {
         this.id = id;
@@ -28,8 +32,10 @@ export class Profile {
         this.email = email;
         this.password = password;
         this.age = age;
-        this.height = height;
+        this.heightFt = heightFt;
+        this.heightIn = heightIn;
         this.weight = weight;
+        this.gender = gender;
         this.Routines = routines;
     }
 }

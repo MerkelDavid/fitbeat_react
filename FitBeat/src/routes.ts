@@ -5,6 +5,8 @@ import Profile from './components/profile';
 import App from './App';
 import Exercises from './components/exercises';
 import CreateAccount from './components/createAccount';
+import Login from './components/login';
+import ForgotPassword from './components/forgotPassword';
 
 export const routes = 
   [
@@ -18,6 +20,8 @@ export const routes =
         {path: "profile", Component: Profile},
         {path: "exercises", Component: Exercises},
         {path: "createAccount", Component: CreateAccount},
+        {path: "login", Component: Login},
+        {path: "passwordReset", Component: ForgotPassword}
       ]
     },
   ]
